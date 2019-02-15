@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/operate/index",
+    "pages/shop/index",
+    "pages/active/index"
+  ],
+  "tabBar": {
+    "color": "#8f9091",
+    "selectedColor": "#09bb07",
+    "list": [
+      {
+        "pagePath": "pages/operate/index",
+        "text": "运营信息",
+        "iconPath": "img/icon_tab_operate_normal.png",
+        "selectedIconPath": "img/icon_tab_operate_selected.png"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "text": "合作门店",
+        "iconPath": "img/icon_tab_shop_normal.png",
+        "selectedIconPath": "img/icon_tab_shop_selected.png"
+      },
+      {
+        "pagePath": "pages/active/index",
+        "text": "活动管理",
+        "iconPath": "img/icon_tab_active_normal.png",
+        "selectedIconPath": "img/icon_tab_active_selected.png"
+      }
+    ]
+  },
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "彩红店长",
+    "navigationBarTextStyle": "black"
+  },
+
+  "debug": true
+}
